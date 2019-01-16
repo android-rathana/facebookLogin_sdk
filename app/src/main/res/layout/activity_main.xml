@@ -18,5 +18,17 @@
             android:layout_marginTop="8dp"
             app:layout_constraintTop_toTopOf="parent"
             android:onClick="onLoginClicked"/>
+    <Button
+            android:onClick="onLoginWithAccountKit"
+            android:text="Login with account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAccountKit"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnFbLogin"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"/>
 
 </android.support.constraint.ConstraintLayout>

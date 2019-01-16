@@ -1,9 +1,10 @@
-package com.example.ratha.facebooklogin_sdk.util
+package com.example.ratha.facebooklogin_sdk.util.helper.facebooklogin
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import com.example.ratha.facebooklogin_sdk.util.FacebookDataCallback
 import com.facebook.*
 import com.facebook.internal.ServerProtocol
 import com.facebook.login.LoginManager
